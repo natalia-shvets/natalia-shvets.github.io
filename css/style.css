@@ -1,7 +1,9 @@
+*, body, html{
+  font-family: 'Roboto', sans-serif;
+}
 
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -27,29 +29,23 @@ body {
   color: black;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Pacifico', cursive;
   font-weight: 300;
   color:black;
 }
 .navbar-brand{
   font-size: 60px;
-  font-family: 'Architects Daughter', cursive;
 }
 li>a{
-  font-family: 'Architects Daughter', cursive;
 }
 .h1-logo{
   color: #222;
-  font-family: 'Ruslan Display', cursive;
 }
 .h2-logo{
   color: #3498db;
-  font-family: 'Ruslan Display', cursive;
 }
 /* Paragraph & Typographic */
 
 p {
-  font-family: 'Pacifico', cursive;
   line-height: 28px;
   margin-bottom: 25px;
 }
@@ -61,7 +57,6 @@ p {
 /* Links */
 
 a {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   color: #f85c37;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -319,7 +314,6 @@ hr {
 
 .modal-body {
   background: #f2f2f2;
-  font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -334,7 +328,11 @@ hr {
    Pricing Tables
    ========================================================================== */
 
-.pricing-option {
+
+.v-ret-t{
+  text-align: center ;
+}
+   .pricing-option {
   padding-bottom: 40px;
 }
 
